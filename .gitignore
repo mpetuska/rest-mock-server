@@ -10,3 +10,6 @@ logs
 
 build
 coverage
+
+.idea/
+.vscode/
