@@ -6,7 +6,7 @@ export default (schema: Schema): Handler => {
     const { body } = req;
     const { error, value } = schema.validate(body);
     if (error) {
-      return res.status(200).json(error);
+      return res.status(400).json(error);
     } else {
       req.body = value;
       next();

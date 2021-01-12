@@ -46,8 +46,6 @@ export default {
       return fs.writeFile(`${dir}/static.json`, JSON.stringify(mock));
     } else {
       const files = await listFiles(dir);
-      console.log(files);
-
       const stat = files.find((name) => name.startsWith("static"));
       if (stat) {
         return stat;
