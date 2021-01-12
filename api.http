@@ -11,8 +11,8 @@ POST http://localhost:8080/config/api/test/path
 Content-Type: application/json
 
 {
-  "static": false,
-  "handler": "(req, res) => res.sendStatus(403)",
+  "static": true,
+  "handler": "(req, res) => res.sendStatus(204)",
   "response": {
     "status": 203,
     "body": null
@@ -20,5 +20,5 @@ Content-Type: application/json
 }
 ###
 
-GET http://localhost:8080/api/test/path
+DELETE http://localhost:8080/api/test/path
 ###

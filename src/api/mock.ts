@@ -3,7 +3,8 @@ import mockManager from "../service/mockManager";
 import PromiseRouter from "express-promise-router";
 
 const controller: Handler = async (req, res) => {
-  const { path } = req;
+  const { path, method } = req;
+  console.log(method, path);
   const mock = await mockManager.pop(path);
   if (!mock) {
     return res.sendStatus(404);
@@ -17,4 +18,9 @@ const controller: Handler = async (req, res) => {
   }
 };
 
-export default PromiseRouter({ mergeParams: true }).get("/*", controller);
+export default PromiseRouter({ mergeParams: true })
+  .post("/*", controller)
+  .put("/*", controller)
+  .patch("/*", controller)
+  .delete("/*", controller)
+  .get("/*", controller);
