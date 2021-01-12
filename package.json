@@ -14,14 +14,23 @@
   },
   "dependencies": {
     "application.env": "^1.0.8",
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-promise-router": "^4.0.1",
+    "joi": "^17.3.0",
+    "source-map-support": "^0.5.19"
   },
   "devDependencies": {
     "@tsconfig/node14": "^1.0.0",
+    "@types/body-parser": "^1",
+    "@types/compression": "^1",
     "@types/eslint-plugin-prettier": "^3",
     "@types/express": "^4",
     "@types/node": "^14.14.20",
     "@types/prettier": "^2",
+    "@types/source-map-support": "^0",
     "@types/webpack": "^4.41.25",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",

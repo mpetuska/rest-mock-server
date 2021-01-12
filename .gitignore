@@ -10,8 +10,10 @@
 logs
 *.log
 
-build
-coverage
+build/
+dist/
+coverage/
+.cache/
 
 .idea/
 .vscode/
