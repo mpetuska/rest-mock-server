@@ -12,5 +12,7 @@ module.exports = {
         project: `${__dirname}/tsconfig.json`,
     },
     plugins: ["@typescript-eslint"],
-    rules: {},
+    rules: {
+        "new-cap": "off"
+    },
 };

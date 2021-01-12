@@ -1,8 +1,10 @@
 {
-    "extends": "@tsconfig/node14",
-    "compilerOptions": {
-        "rootDir": "src",
-        "outDir": "build"
-    },
-    "include": ["src"]
+  "extends": "@tsconfig/node14",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build"
+  },
+  "include": [
+    "src"
+  ]
 }

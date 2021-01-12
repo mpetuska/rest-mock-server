@@ -1,9 +1,11 @@
 import express from "express";
 import env from "./env";
+import configRouter from "./api/config";
 
 env
   .then(async () => {
     const app = express();
+    app.use("/config", configRouter);
 
     app.listen(process.env.PORT, () =>
       console.info(

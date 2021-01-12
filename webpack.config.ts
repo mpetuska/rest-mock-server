@@ -6,8 +6,8 @@ const config: Configuration = {
     mode: 'production',
     target: 'async-node',
     output: {
-        filename: 'build/[name].js',
-        sourceMapFilename: 'build/[name].map'
+        filename: '[name].js',
+        sourceMapFilename: '[name].map'
     },
     resolve: {
         extensions: [".ts", ".tsx", ".js"]
