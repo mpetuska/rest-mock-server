@@ -65,3 +65,10 @@ When the service gets a request that's not under `/config/*` or `/clear/*` paths
 registered requests by path (or return 404 if none were registered under given path). Note that unless you use static registration,
 each registered response will be consumed as part of the mock request. Non-static registered responses are consumed on first in, first out basis.
 
+# Docker
+
+The service is also published as docker image so you can run it with the bellow one-liner:
+```bash
+docker run -p 7000:7000 mpetuska/rest-mock-server
+```
+

@@ -6,4 +6,4 @@ WORKDIR /app
 COPY dist/ .
 
 EXPOSE $PORT
-ENTRYPOINT ["node", "main.js"]
+ENTRYPOINT node main.js
