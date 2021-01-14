@@ -1,5 +1,5 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/mpetuska/rest-mock-server)
-[![Docker_pulls](https://img.shields.io/docker/pulls/mpetuska/rest-mock-server?style=flat-square)](https://hub.docker.com/r/mpetuska/rest-mock-server)
+[![Gitpod ready-to-code](https://img.shields.io/badge/gitpod-ready--to--code-blue?logo=gitpod&style=flat-square)](https://gitpod.io/#https://github.com/mpetuska/rest-mock-server)
+[![Docker_pulls](https://img.shields.io/docker/pulls/mpetuska/rest-mock-server?logo=docker&style=flat-square)](https://hub.docker.com/r/mpetuska/rest-mock-server)
 # rest-mock-server
 
 Remotely configurable mock REST API server
