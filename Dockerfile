@@ -3,8 +3,10 @@ FROM node:14-alpine
 ENV PORT=7000
 ENV DISABLE_CORS=false
 
-WORKDIR /app
+RUN adduser -S bronius
+USER bronius
+WORKDIR /home/bronius
 COPY dist/ .
 
 EXPOSE $PORT
-ENTRYPOINT node main.js
+ENTRYPOINT ["node", "main.js"]

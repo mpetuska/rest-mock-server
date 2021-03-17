@@ -14,10 +14,14 @@ export default load({
   failSilently: true,
   validator: {
     PORT: {
-      converter: value => Number(value)
+      converter(value) {
+        return Number(value);
+      },
     },
     DISABLE_CORS: {
-      converter: value => Boolean(value)
-    }
-  }
+      converter(value) {
+        return value.toLowerCase() === "true";
+      },
+    },
+  },
 });
