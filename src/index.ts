@@ -7,6 +7,7 @@ import configRouter from "./api/config";
 import mockRouter from "./api/mock";
 import bodyParser from "body-parser";
 import compression from "compression";
+import cors from "cors";
 
 env
   .then(async () => {
@@ -14,6 +15,9 @@ env
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));
     app.use(compression() as Handler);
+    if(!process.env.DISABLE_CORS) {
+        app.use(cors())
+    }
     app.use("/clear", clearRouter);
     app.use("/config", configRouter);
     app.use("/", mockRouter);

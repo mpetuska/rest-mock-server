@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "8affdc4f-c51f-474f-bace-736c4220d856",
+		"name": "rest-mock-server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Mocks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/config/:actualRequestPath",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"config",
+						":actualRequestPath"
+					],
+					"variable": [
+						{
+							"key": "actualRequestPath",
+							"value": "my/api/path?query=true",
+							"description": "API Request path to get mocks for"
+						}
+					]
+				},
+				"description": "List all registered mock responses for a given path."
+			},
+			"response": []
+		},
+		{
+			"name": "Mock Handler",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"static\": false,\n    \"handler\": \"(req, res) => res.sendStatus(403)\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7000/config/:actualRequestPath",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"config",
+						":actualRequestPath"
+					],
+					"variable": [
+						{
+							"key": "actualRequestPath",
+							"value": "my/api/path?query=true",
+							"description": "API Request path to register mock for"
+						}
+					]
+				},
+				"description": "Register a mock response with dynamic handler.\n\nBody schema with their default values is as follows:\n```typescript\nconst config: RequestMock = {\n  static: false, // If set to true will make this mock static, ignoring all other mocks and not expiring it until explicitly cleared.\n  handler: null, // Free form js lambda function based on ExpressJS request handler in the form of `(req: Request, res: Response): void => {}`.\n  response: null // Less flexible but simpler alternative to handler, returns given `response.body` under `response.status` code.\n}\n```"
+			},
+			"response": []
+		},
+		{
+			"name": "Mock Response",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"static\": false,\n    \"response\": {\n        \"status\": 203,\n        \"body\": null\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7000/config/:actualRequestPath",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"config",
+						":actualRequestPath"
+					],
+					"variable": [
+						{
+							"key": "actualRequestPath",
+							"value": "my/api/path?query=true",
+							"description": "API Request path to register mock for"
+						}
+					]
+				},
+				"description": "Register a mock response with static body.\n\nBody schema with their default values is as follows:\n```typescript\nconst config: RequestMock = {\n  static: false, // If set to true will make this mock static, ignoring all other mocks and not expiring it until explicitly cleared.\n  handler: null, // Free form js lambda function based on ExpressJS request handler in the form of `(req: Request, res: Response): void => {}`.\n  response: null // Less flexible but simpler alternative to handler, returns given `response.body` under `response.status` code.\n}\n```"
+			},
+			"response": []
+		},
+		{
+			"name": "Clear Mock",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/clear/:actualRequestPath",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"clear",
+						":actualRequestPath"
+					],
+					"variable": [
+						{
+							"key": "actualRequestPath",
+							"value": "my/api/path?query=true",
+							"description": "API Request path to clear mocks for"
+						}
+					]
+				},
+				"description": "Clear all registered mock responses for a given path."
+			},
+			"response": []
+		},
+		{
+			"name": "Clear All Mocks",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/clear",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"clear"
+					]
+				},
+				"description": "Clear all registered mock responses (complete reset of the service)."
+			},
+			"response": []
+		}
+	]
+}

@@ -4,9 +4,20 @@ import load from "application.env";
 declare global {
   namespace ApplicationEnv {
     interface Env {
-      PORT: string;
+      PORT: number;
+      DISABLE_CORS: boolean;
     }
   }
 }
 
-export default load("application.env", { failSilently: true });
+export default load({
+  failSilently: true,
+  validator: {
+    PORT: {
+      converter: value => Number(value)
+    },
+    DISABLE_CORS: {
+      converter: value => Boolean(value)
+    }
+  }
+});
