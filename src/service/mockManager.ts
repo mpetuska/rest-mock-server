@@ -72,7 +72,7 @@ export default {
     const files = await listFiles(dir);
     const res: RequestMock[] = [];
     for (const file of files) {
-      res.push(await readJson<RequestMock>(`${dir}/${file}`));
+      res.push(await readJson<RequestMock>(`${path}/${file}`));
     }
     return res;
   },
