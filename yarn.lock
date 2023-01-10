@@ -269,10 +269,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.14.35":
+"@types/node@npm:*":
   version: 14.14.35
   resolution: "@types/node@npm:14.14.35"
   checksum: 0f6320bf5370d1ff82105fb7f26aa0658499c97d3ec78561e65b65724280244f281602541182b63470d2c8a98db22fbb4f91409c5c7c97da8c3bb8f97fbc5dbc
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^18.0.0":
+  version: 18.11.18
+  resolution: "@types/node@npm:18.11.18"
+  checksum: 6fefe7545aeff8ff19d9ac1c0434edf44a5a55fcbfdf2b7a2da69ccfdd06a7ba4fdebb6c797a7eedb707c5be729c6bbd0c967f2281e03e152dc87bdcd3e21c35
   languageName: node
   linkType: hard
 
@@ -3981,7 +3988,7 @@ resolve@^1.9.0:
     "@types/cors": ^2.8.10
     "@types/eslint-plugin-prettier": ^3.1.0
     "@types/express": ^4.17.11
-    "@types/node": ^14.14.35
+    "@types/node": ^18.0.0
     "@types/prettier": ^2.2.3
     "@types/source-map-support": ^0.5.3
     "@types/webpack": ^4.41.26
