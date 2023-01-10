@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/cors", "npm:2.8.10"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/express", "npm:4.17.11"],
-            ["@types/node", "npm:14.14.35"],
+            ["@types/node", "npm:18.11.18"],
             ["@types/prettier", "npm:2.2.3"],
             ["@types/source-map-support", "npm:0.5.3"],
             ["@types/webpack", "npm:4.41.26"],
@@ -387,6 +387,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-14.14.35-c55176fef6-0f6320bf53.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:14.14.35"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:18.11.18", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.18-d61e8a4a20-6fefe7545a.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:18.11.18"]
           ],
           "linkType": "HARD",
         }]
@@ -3150,7 +3157,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["husky", [
         ["npm:4.3.8", {
-          "packageLocation": "./.yarn/unplugged/husky-npm-4.3.8-f7cd00e56d/node_modules/husky/",
+          "packageLocation": "./.yarn/cache/husky-npm-4.3.8-f7cd00e56d-1ac4fb51ff.zip/node_modules/husky/",
           "packageDependencies": [
             ["husky", "npm:4.3.8"],
             ["chalk", "npm:4.1.0"],
@@ -4083,7 +4090,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["nodemon", [
         ["npm:2.0.7", {
-          "packageLocation": "./.yarn/unplugged/nodemon-npm-2.0.7-7b95e46511/node_modules/nodemon/",
+          "packageLocation": "./.yarn/cache/nodemon-npm-2.0.7-7b95e46511-e1e8acb584.zip/node_modules/nodemon/",
           "packageDependencies": [
             ["nodemon", "npm:2.0.7"],
             ["chokidar", "npm:3.5.0"],
@@ -4793,7 +4800,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/cors", "npm:2.8.10"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/express", "npm:4.17.11"],
-            ["@types/node", "npm:14.14.35"],
+            ["@types/node", "npm:18.11.18"],
             ["@types/prettier", "npm:2.2.3"],
             ["@types/source-map-support", "npm:0.5.3"],
             ["@types/webpack", "npm:4.41.26"],
