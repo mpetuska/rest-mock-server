@@ -56,7 +56,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.31.0"],
             ["eslint-config-google", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:0.14.0"],
             ["eslint-config-prettier", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:8.1.0"],
-            ["eslint-plugin-prettier", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:3.3.1"],
+            ["eslint-plugin-prettier", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:4.2.1"],
             ["express", "npm:4.18.2"],
             ["express-async-errors", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:3.1.1"],
             ["express-promise-router", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:4.0.1"],
@@ -2417,17 +2417,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eslint-plugin-prettier", [
-        ["npm:3.3.1", {
-          "packageLocation": "./.yarn/cache/eslint-plugin-prettier-npm-3.3.1-18ce6f16c1-cf35b0f0e9.zip/node_modules/eslint-plugin-prettier/",
+        ["npm:4.2.1", {
+          "packageLocation": "./.yarn/cache/eslint-plugin-prettier-npm-4.2.1-ba8e1240f1-ff1b4155f2.zip/node_modules/eslint-plugin-prettier/",
           "packageDependencies": [
-            ["eslint-plugin-prettier", "npm:3.3.1"]
+            ["eslint-plugin-prettier", "npm:4.2.1"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:3.3.1", {
-          "packageLocation": "./.yarn/$$virtual/eslint-plugin-prettier-virtual-5dc9c0573b/0/cache/eslint-plugin-prettier-npm-3.3.1-18ce6f16c1-cf35b0f0e9.zip/node_modules/eslint-plugin-prettier/",
+        ["virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:4.2.1", {
+          "packageLocation": "./.yarn/$$virtual/eslint-plugin-prettier-virtual-254ecdf8bb/0/cache/eslint-plugin-prettier-npm-4.2.1-ba8e1240f1-ff1b4155f2.zip/node_modules/eslint-plugin-prettier/",
           "packageDependencies": [
-            ["eslint-plugin-prettier", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:3.3.1"],
+            ["eslint-plugin-prettier", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:4.2.1"],
             ["@types/eslint", null],
             ["@types/prettier", "npm:2.2.3"],
             ["eslint", "npm:8.31.0"],
@@ -5020,7 +5020,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.31.0"],
             ["eslint-config-google", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:0.14.0"],
             ["eslint-config-prettier", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:8.1.0"],
-            ["eslint-plugin-prettier", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:3.3.1"],
+            ["eslint-plugin-prettier", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:4.2.1"],
             ["express", "npm:4.18.2"],
             ["express-async-errors", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:3.1.1"],
             ["express-promise-router", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:4.0.1"],
