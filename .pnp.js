@@ -61,7 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-async-errors", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:3.1.1"],
             ["express-promise-router", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:4.0.1"],
             ["fork-ts-checker-webpack-plugin", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:7.3.0"],
-            ["husky", "npm:4.3.8"],
+            ["husky", "npm:8.0.3"],
             ["joi", "npm:17.4.0"],
             ["nodemon", "npm:2.0.7"],
             ["prettier", "npm:2.2.1"],
@@ -1774,15 +1774,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["compare-versions", [
-        ["npm:3.6.0", {
-          "packageLocation": "./.yarn/cache/compare-versions-npm-3.6.0-0bb57ed638-0952526450.zip/node_modules/compare-versions/",
-          "packageDependencies": [
-            ["compare-versions", "npm:3.6.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["compressible", [
         ["npm:2.0.18", {
           "packageLocation": "./.yarn/cache/compressible-npm-2.0.18-ee5ab04d88-8ac178b6ef.zip/node_modules/compressible/",
@@ -1900,18 +1891,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["cosmiconfig", [
-        ["npm:7.0.0", {
-          "packageLocation": "./.yarn/cache/cosmiconfig-npm-7.0.0-b9d0d7d156-151fcb9177.zip/node_modules/cosmiconfig/",
-          "packageDependencies": [
-            ["cosmiconfig", "npm:7.0.0"],
-            ["@types/parse-json", "npm:4.0.0"],
-            ["import-fresh", "npm:3.3.0"],
-            ["parse-json", "npm:5.1.0"],
-            ["path-type", "npm:4.0.0"],
-            ["yaml", "npm:1.10.2"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:7.1.0", {
           "packageLocation": "./.yarn/cache/cosmiconfig-npm-7.1.0-13a5090bcd-e6c2bb82cf.zip/node_modules/cosmiconfig/",
           "packageDependencies": [
@@ -2902,16 +2881,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["find-versions", [
-        ["npm:4.0.0", {
-          "packageLocation": "./.yarn/cache/find-versions-npm-4.0.0-e4bd62bace-0517412834.zip/node_modules/find-versions/",
-          "packageDependencies": [
-            ["find-versions", "npm:4.0.0"],
-            ["semver-regex", "npm:3.1.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["flat-cache", [
         ["npm:3.0.4", {
           "packageLocation": "./.yarn/cache/flat-cache-npm-3.0.4-ee77e5911e-72d86ccdf8.zip/node_modules/flat-cache/",
@@ -3412,20 +3381,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["husky", [
-        ["npm:4.3.8", {
-          "packageLocation": "./.yarn/cache/husky-npm-4.3.8-f7cd00e56d-1ac4fb51ff.zip/node_modules/husky/",
+        ["npm:8.0.3", {
+          "packageLocation": "./.yarn/cache/husky-npm-8.0.3-b0b59c5127-66fcd9e180.zip/node_modules/husky/",
           "packageDependencies": [
-            ["husky", "npm:4.3.8"],
-            ["chalk", "npm:4.1.0"],
-            ["ci-info", "npm:2.0.0"],
-            ["compare-versions", "npm:3.6.0"],
-            ["cosmiconfig", "npm:7.0.0"],
-            ["find-versions", "npm:4.0.0"],
-            ["opencollective-postinstall", "npm:2.0.3"],
-            ["pkg-dir", "npm:5.0.0"],
-            ["please-upgrade-node", "npm:3.2.0"],
-            ["slash", "npm:3.0.0"],
-            ["which-pm-runs", "npm:1.0.0"]
+            ["husky", "npm:8.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -4562,15 +4521,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["opencollective-postinstall", [
-        ["npm:2.0.3", {
-          "packageLocation": "./.yarn/cache/opencollective-postinstall-npm-2.0.3-954643c36b-d75b06b80e.zip/node_modules/opencollective-postinstall/",
-          "packageDependencies": [
-            ["opencollective-postinstall", "npm:2.0.3"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["optionator", [
         ["npm:0.9.1", {
           "packageLocation": "./.yarn/cache/optionator-npm-0.9.1-577e397aae-bdf5683f98.zip/node_modules/optionator/",
@@ -4763,24 +4713,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["pkg-dir", "npm:4.2.0"],
             ["find-up", "npm:4.1.0"]
-          ],
-          "linkType": "HARD",
-        }],
-        ["npm:5.0.0", {
-          "packageLocation": "./.yarn/cache/pkg-dir-npm-5.0.0-3ba6768b42-86f6ecee17.zip/node_modules/pkg-dir/",
-          "packageDependencies": [
-            ["pkg-dir", "npm:5.0.0"],
-            ["find-up", "npm:5.0.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["please-upgrade-node", [
-        ["npm:3.2.0", {
-          "packageLocation": "./.yarn/cache/please-upgrade-node-npm-3.2.0-3f653350ed-34cf86f6d5.zip/node_modules/please-upgrade-node/",
-          "packageDependencies": [
-            ["please-upgrade-node", "npm:3.2.0"],
-            ["semver-compare", "npm:1.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -5164,7 +5096,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-async-errors", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:3.1.1"],
             ["express-promise-router", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:4.0.1"],
             ["fork-ts-checker-webpack-plugin", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:7.3.0"],
-            ["husky", "npm:4.3.8"],
+            ["husky", "npm:8.0.3"],
             ["joi", "npm:17.4.0"],
             ["nodemon", "npm:2.0.7"],
             ["prettier", "npm:2.2.1"],
@@ -5285,30 +5217,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["semver-compare", [
-        ["npm:1.0.0", {
-          "packageLocation": "./.yarn/cache/semver-compare-npm-1.0.0-33f7033df0-9f3a74ca5f.zip/node_modules/semver-compare/",
-          "packageDependencies": [
-            ["semver-compare", "npm:1.0.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["semver-diff", [
         ["npm:3.1.1", {
           "packageLocation": "./.yarn/cache/semver-diff-npm-3.1.1-1207a795e9-d5c9b693e6.zip/node_modules/semver-diff/",
           "packageDependencies": [
             ["semver-diff", "npm:3.1.1"],
             ["semver", "npm:6.3.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["semver-regex", [
-        ["npm:3.1.2", {
-          "packageLocation": "./.yarn/cache/semver-regex-npm-3.1.2-66d0f8130f-6a83740f3f.zip/node_modules/semver-regex/",
-          "packageDependencies": [
-            ["semver-regex", "npm:3.1.2"]
           ],
           "linkType": "HARD",
         }]
@@ -6245,15 +6159,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["which", "npm:2.0.2"],
             ["isexe", "npm:2.0.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["which-pm-runs", [
-        ["npm:1.0.0", {
-          "packageLocation": "./.yarn/cache/which-pm-runs-npm-1.0.0-c3252bc9d6-0bb79a782e.zip/node_modules/which-pm-runs/",
-          "packageDependencies": [
-            ["which-pm-runs", "npm:1.0.0"]
           ],
           "linkType": "HARD",
         }]
