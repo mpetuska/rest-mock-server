@@ -2561,9 +2561,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:^7.0.0":
-  version: 7.3.0
-  resolution: "fork-ts-checker-webpack-plugin@npm:7.3.0"
+"fork-ts-checker-webpack-plugin@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "fork-ts-checker-webpack-plugin@npm:8.0.0"
   dependencies:
     "@babel/code-frame": ^7.16.7
     chalk: ^4.1.2
@@ -2579,12 +2579,8 @@ __metadata:
     tapable: ^2.2.1
   peerDependencies:
     typescript: ">3.6.0"
-    vue-template-compiler: "*"
     webpack: ^5.11.0
-  peerDependenciesMeta:
-    vue-template-compiler:
-      optional: true
-  checksum: 102903a040f8c549ee856829f6cc34e6556481ad1cc8c317abd82935d8b809e67a9da0d9b29fd691c366c0a5b52ff47347f9e3963c3142deb7831de17fec11fa
+  checksum: 52dc5d4c8956cb372364c6be07dd9285e13a08dc46b21c9d2d7320c77b06e936cd928bac45fa99d1ed0b6e61e0ee0b71dcfbfb3a383487b25759460920ea793e
   languageName: node
   linkType: hard
 
@@ -4484,7 +4480,7 @@ resolve@^1.9.0:
     express: ^4.17.3
     express-async-errors: ^3.1.1
     express-promise-router: ^4.0.1
-    fork-ts-checker-webpack-plugin: ^7.0.0
+    fork-ts-checker-webpack-plugin: ^8.0.0
     husky: ^8.0.0
     joi: ^17.4.0
     nodemon: ^2.0.7
