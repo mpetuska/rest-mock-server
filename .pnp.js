@@ -60,7 +60,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express", "npm:4.18.2"],
             ["express-async-errors", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:3.1.1"],
             ["express-promise-router", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:4.0.1"],
-            ["fork-ts-checker-webpack-plugin", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:7.3.0"],
+            ["fork-ts-checker-webpack-plugin", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:8.0.0"],
             ["husky", "npm:8.0.3"],
             ["joi", "npm:17.4.0"],
             ["nodemon", "npm:2.0.7"],
@@ -3156,21 +3156,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["fork-ts-checker-webpack-plugin", [
-        ["npm:7.3.0", {
-          "packageLocation": "./.yarn/cache/fork-ts-checker-webpack-plugin-npm-7.3.0-652914f067-102903a040.zip/node_modules/fork-ts-checker-webpack-plugin/",
+        ["npm:8.0.0", {
+          "packageLocation": "./.yarn/cache/fork-ts-checker-webpack-plugin-npm-8.0.0-3888b57a08-52dc5d4c89.zip/node_modules/fork-ts-checker-webpack-plugin/",
           "packageDependencies": [
-            ["fork-ts-checker-webpack-plugin", "npm:7.3.0"]
+            ["fork-ts-checker-webpack-plugin", "npm:8.0.0"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:7.3.0", {
-          "packageLocation": "./.yarn/$$virtual/fork-ts-checker-webpack-plugin-virtual-e1d624ca44/0/cache/fork-ts-checker-webpack-plugin-npm-7.3.0-652914f067-102903a040.zip/node_modules/fork-ts-checker-webpack-plugin/",
+        ["virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:8.0.0", {
+          "packageLocation": "./.yarn/$$virtual/fork-ts-checker-webpack-plugin-virtual-e61ea4dc05/0/cache/fork-ts-checker-webpack-plugin-npm-8.0.0-3888b57a08-52dc5d4c89.zip/node_modules/fork-ts-checker-webpack-plugin/",
           "packageDependencies": [
-            ["fork-ts-checker-webpack-plugin", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:7.3.0"],
+            ["fork-ts-checker-webpack-plugin", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:8.0.0"],
             ["@babel/code-frame", "npm:7.18.6"],
             ["@types/eslint", null],
             ["@types/typescript", null],
-            ["@types/vue-template-compiler", null],
             ["@types/webpack", "npm:5.28.0"],
             ["chalk", "npm:4.1.2"],
             ["chokidar", "npm:3.5.3"],
@@ -3185,17 +3184,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["semver", "npm:7.3.8"],
             ["tapable", "npm:2.2.1"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"],
-            ["vue-template-compiler", null],
             ["webpack", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:5.26.3"]
           ],
           "packagePeers": [
             "@types/eslint",
             "@types/typescript",
-            "@types/vue-template-compiler",
             "@types/webpack",
             "eslint",
             "typescript",
-            "vue-template-compiler",
             "webpack"
           ],
           "linkType": "HARD",
@@ -5308,7 +5304,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express", "npm:4.18.2"],
             ["express-async-errors", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:3.1.1"],
             ["express-promise-router", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:4.0.1"],
-            ["fork-ts-checker-webpack-plugin", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:7.3.0"],
+            ["fork-ts-checker-webpack-plugin", "virtual:f600705a63497e3651dc6263ceed9ba29f9041e5f0ad0e2eac46acf71b61b517569561bc39f65a3aa6ff0efff02f925443d2336edc9dc8ca4ab1b6ce026dbd10#npm:8.0.0"],
             ["husky", "npm:8.0.3"],
             ["joi", "npm:17.4.0"],
             ["nodemon", "npm:2.0.7"],
