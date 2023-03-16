@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@tsconfig/node14", "npm:1.0.0"],
+            ["@tsconfig/node14", "npm:1.0.3"],
             ["@types/body-parser", "npm:1.19.0"],
             ["@types/compression", "npm:1.7.0"],
             ["@types/cors", "npm:2.8.10"],
@@ -409,10 +409,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@tsconfig/node14", [
-        ["npm:1.0.0", {
-          "packageLocation": "./.yarn/cache/@tsconfig-node14-npm-1.0.0-cf320499dc-3eda14250e.zip/node_modules/@tsconfig/node14/",
+        ["npm:1.0.3", {
+          "packageLocation": "./.yarn/cache/@tsconfig-node14-npm-1.0.3-15321421d2-3f352ac89d.zip/node_modules/@tsconfig/node14/",
           "packageDependencies": [
-            ["@tsconfig/node14", "npm:1.0.0"]
+            ["@tsconfig/node14", "npm:1.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -5285,7 +5285,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["rest-mock-server", "workspace:."],
-            ["@tsconfig/node14", "npm:1.0.0"],
+            ["@tsconfig/node14", "npm:1.0.3"],
             ["@types/body-parser", "npm:1.19.0"],
             ["@types/compression", "npm:1.7.0"],
             ["@types/cors", "npm:2.8.10"],
@@ -6034,7 +6034,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/wasm", null],
             ["@tsconfig/node10", "npm:1.0.9"],
             ["@tsconfig/node12", "npm:1.0.11"],
-            ["@tsconfig/node14", "npm:1.0.0"],
+            ["@tsconfig/node14", "npm:1.0.3"],
             ["@tsconfig/node16", "npm:1.0.3"],
             ["@types/node", "npm:18.11.18"],
             ["@types/swc__core", null],
