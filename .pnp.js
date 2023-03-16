@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@tsconfig/node14", "npm:1.0.0"],
             ["@types/body-parser", "npm:1.19.0"],
-            ["@types/compression", "npm:1.7.0"],
+            ["@types/compression", "npm:1.7.2"],
             ["@types/cors", "npm:2.8.10"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/express", "npm:4.17.11"],
@@ -438,10 +438,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/compression", [
-        ["npm:1.7.0", {
-          "packageLocation": "./.yarn/cache/@types-compression-npm-1.7.0-4e2216da1f-8725877fb8.zip/node_modules/@types/compression/",
+        ["npm:1.7.2", {
+          "packageLocation": "./.yarn/cache/@types-compression-npm-1.7.2-7e2a93668a-da70960008.zip/node_modules/@types/compression/",
           "packageDependencies": [
-            ["@types/compression", "npm:1.7.0"],
+            ["@types/compression", "npm:1.7.2"],
             ["@types/express", "npm:4.17.11"]
           ],
           "linkType": "HARD",
@@ -5287,7 +5287,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rest-mock-server", "workspace:."],
             ["@tsconfig/node14", "npm:1.0.0"],
             ["@types/body-parser", "npm:1.19.0"],
-            ["@types/compression", "npm:1.7.0"],
+            ["@types/compression", "npm:1.7.2"],
             ["@types/cors", "npm:2.8.10"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/express", "npm:4.17.11"],
